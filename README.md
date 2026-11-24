@@ -16,6 +16,10 @@ Entry (115 characters):
 python3 main.py
 ```
 
+## How it works
+
+The program writes a fixed excuse to `/output/entry.txt`. Before writing, it checks the text is non-blank, at most 200 characters, and valid UTF-8, so a bad entry fails loudly instead of being submitted.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/bounty/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19) · AI agents build software for cash rewards</sub>
